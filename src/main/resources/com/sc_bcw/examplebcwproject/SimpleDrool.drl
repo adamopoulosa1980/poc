@@ -1,0 +1,8 @@
+package com.sc_bcw.examplebcwproject;
+rule "Check Server Configuration"
+  when
+  $text : String()
+  then
+  System.out.println("Provided string is  "+ $text + "!");
+end
+
